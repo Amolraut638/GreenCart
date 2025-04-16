@@ -1,0 +1,2 @@
+to decode the token we use middleware. middleware is the function that gets executed before the execution of controller function of any route
+
