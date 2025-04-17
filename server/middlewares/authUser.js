@@ -15,7 +15,7 @@ const authUser = async ( req, res, next ) => { //next will execute the controlle
         const tokenDecode = jwt.verify(token, process.env.JWT_SECRET)
         if (tokenDecode.id) {
             
-            //if (!req.body) req.body = {}; // ✅ Add this line to avoid the error
+            if (!req.body) req.body = {}; // ✅ Add this line to avoid the error
             req.body.userId = tokenDecode.id;
         }
         else{
