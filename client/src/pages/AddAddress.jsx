@@ -43,8 +43,8 @@ const AddAddress = () => {
         e.preventDefault();
         try {
             const { data } = await axios.post('/api/address/add', {
-                address,
-                userId: user._id    
+                address
+                //userId: user._id    
             });
 
             if (data.success) {
