@@ -9,7 +9,7 @@ const Loading = () => {
     const query = new URLSearchParams(search)
     const nextUrl = query.get('next');
 
-    useEffect(()=>{
+    useEffect(()=>{ 
         if(nextUrl){
             setTimeout(()=>{
                 navigate(`/${nextUrl}`)
