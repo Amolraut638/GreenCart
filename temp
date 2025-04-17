@@ -1,2 +1,4 @@
 to decode the token we use middleware. middleware is the function that gets executed before the execution of controller function of any route
 
+made the changes is addresscontroller 
+changed isAuth in usercontroller

@@ -96,7 +96,7 @@ export const login = async (req, res) => {
 export const isAuth = async (req, res) => {
     try {
         const { userId } = req.body;
-        const user = await User.findById(userId).select("-password"); //we excluded the password data from user
+        const user = await User.findById(req.userId).select("-password"); //i changed req.userId instead of userId
         return res.json({success: true, user});
 
     } catch (error) {
