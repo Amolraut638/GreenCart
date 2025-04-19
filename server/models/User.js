@@ -10,4 +10,4 @@ const userSchema = new mongoose.Schema({
 const User = mongoose.models.user || mongoose.model('user', userSchema)
 //if usermodel is available then it will user else it is created
 
-export default User
+export default User         

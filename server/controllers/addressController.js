@@ -1,33 +1,33 @@
-import Address from "../models/Address.js";
+import Address from "../models/Address.js"
 
+// Add Address: /api/address/add
 
-//adding address :  /api/address/add
-export const addAddress = async  (req, res) => {
+export const addAddress = async (req, res) => {
     try {
-        const { address, userId } = req.body;
-        await Address.create({...address, userId});  
-        res.json({success: true, message: "Address added successfully"});
+        //const { address, userId } = req.body
+        const address = req.body.address;
+        const userId = req.userId;
+        await Address.create({ ...address, userId })
+        res.json({ success: true, message: "Address added successfully" })
 
     } catch (error) {
-        
         console.log(error.message);
-        res.json({ success: false, message: error.message })    
+        res.json({ success: false, message: error.message });
     }
 }
 
-//get addresses : /api/address/get
-export const getAddress = async  (req, res) => {
-        try {
-            const { userId } = req.body;  
-            const addresses = await Address.find({userId}) 
-            res.json({success: true, addresses});
+// Get Address: /api/address/get
 
-            
-        } catch (error) {
+export const getAddress = async (req, res) => {
+    try {
+        //const { userId } = req.body;
+        const { userId } = req;
+        const addresses = await Address.find({ userId })
+        res.json({ success: true, addresses })
 
-            console.log(error.message);
-            res.json({ success: false, message: error.message })        
-            
-        }
+    } catch (error) {
+        console.log(error.message);
+        res.json({ success: false, message: error.message });
+    }
 }
 

@@ -14,3 +14,4 @@ const Product = mongoose.models.product || mongoose.model('product', productSche
 //if usermodel is available then it will user else it is created
 
 export default Product
+
