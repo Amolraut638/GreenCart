@@ -17,10 +17,9 @@ GreenCart is a full-stack e-commerce web application developed from scratch, aim
 ### Frontend
 
 * **React.js**: For building interactive user interfaces.
-* **Redux**: State management across the application.
 * **React Router**: Handling client-side routing.
 * **Axios**: Making HTTP requests to the backend.
-* **Bootstrap**: Responsive design and styling.([GitHub Docs][1])
+* **Tailwind-CSS** : For better and smooth CSS
 
 ### Backend
 
@@ -29,6 +28,15 @@ GreenCart is a full-stack e-commerce web application developed from scratch, aim
 * **MongoDB**: NoSQL database for storing application data.
 * **Mongoose**: Object Data Modeling (ODM) library for MongoDB.
 * **JWT**: JSON Web Tokens for authentication.
+
+## 💳 Stripe Payment Integration
+
+GreenCart supports **secure checkout via Stripe**:
+
+* Real-time payment processing
+* Handles test and live modes
+* Card authentication and error handling
+* Integrated with order confirmation system
 
 ## 🚀 Getting Started
 
