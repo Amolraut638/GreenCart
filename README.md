@@ -1,6 +1,3 @@
-Based on the structure and contents of your GitHub repository, [Amolraut638/GreenCart](https://github.com/Amolraut638/GreenCart), I've drafted a comprehensive `README.md` file for your project. This README outlines the project's purpose, features, technologies used, and setup instructions. Feel free to modify it to better fit your project's specifics.
-
----
 
 # GreenCart 🛒
 
