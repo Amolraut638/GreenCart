@@ -105,7 +105,6 @@ GreenCart/
 │   └── src/
 │       ├── components/
 │       ├── pages/
-│       ├── redux/
 │       └── App.js
 ├── server/            # Express backend
 │   ├── controllers/
