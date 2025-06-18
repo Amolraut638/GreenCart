@@ -121,3 +121,13 @@ GreenCart/
 Check out the live version of the application: [green-cart-nine.vercel.app](https://green-cart-nine.vercel.app/)
 
 
+## Reach Out to Me
+
+Feel free to connect with me via:
+
+📧 Email: amolraut1902@gmail.com  
+🔗 LinkedIn: www.linkedin.com/in/amolraut9272  
+
+💬 Let's collaborate and build something great!
+
+
