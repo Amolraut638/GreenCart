@@ -1,9 +1,9 @@
 
-# GreenCart 🛒
+# GreenCart
 
 GreenCart is a full-stack e-commerce web application developed from scratch, aiming to provide a seamless shopping experience. It features a user-friendly interface, robust backend, and secure authentication mechanisms.
 
-## 🌟 Features
+##  Features
 
 * **User Authentication**: Secure login and registration system.
 * **Product Management**: Browse, search, and filter products.
@@ -12,7 +12,7 @@ GreenCart is a full-stack e-commerce web application developed from scratch, aim
 * **Admin Dashboard**: Manage products, orders, and users.
 * **Responsive Design**: Optimized for both desktop and mobile devices.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Frontend
 
@@ -29,7 +29,7 @@ GreenCart is a full-stack e-commerce web application developed from scratch, aim
 * **Mongoose**: Object Data Modeling (ODM) library for MongoDB.
 * **JWT**: JSON Web Tokens for authentication.
 
-## 💳 Stripe Payment Integration
+##  Stripe Payment Integration
 
 GreenCart supports **secure checkout via Stripe**:
 
@@ -38,7 +38,7 @@ GreenCart supports **secure checkout via Stripe**:
 * Card authentication and error handling
 * Integrated with order confirmation system
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -96,7 +96,7 @@ GreenCart supports **secure checkout via Stripe**:
 
 The application should now be running at `http://localhost:3000/`.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```bash
 GreenCart/
@@ -116,7 +116,7 @@ GreenCart/
 
 
 
-## 🌐 Live Demo
+##  Live Demo
 
 Check out the live version of the application: [green-cart-nine.vercel.app](https://green-cart-nine.vercel.app/)
 
